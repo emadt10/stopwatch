@@ -1,0 +1,58 @@
+
+        @import url('https://fonts.googleapis.com/css?family=Open+Sans:400,600,700');
+  *{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+  }
+        body{
+            background-color: #072d6b;
+  }
+  .stop-watch{
+    background-color: #98d3fa;
+    position: absolute;
+    transform: translate(-50%, -50%);
+    left: 50%;
+    top: 50%;
+    width: min(90%, 31.25em);
+    padding: 3.75em 0;
+    border-radius: 0.8em;
+    box-shadow:0 1.97em 3.75em rgba(1,87,185,0.2) ;
+  }
+  .time{
+    position: relative;
+    width: 110%;
+    background-color: #0c3461;
+    left: -5%;
+    padding: 1em 0;
+    font-family: "Roboto Mono", monospace;
+    color: #f0f9ff;
+    font-size: 2.8em;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    border-radius: 0.3em;
+    box-shadow: 0 0.5em 1em rgba(1,87,185,0.2);
+  }
+  .buttons{
+    width: 80%;
+    margin: 3.8em auto 0 auto;
+    display: flex;
+    justify-content: space-around;
+  }
+  .buttons button{
+    font-size: 1.12em;
+    background-color: #dbe9ff;
+    color: #113d6e;
+    border: none;
+    font-family: "Poppinss", sans-serif;
+    border-radius: 0.5em;
+    padding: 1em 1.5em;
+    cursor: pointer;
+    outline: none;
+  }
+  #start{
+    background-color: #225997;
+    color: #f0f9ff;
+  }       
+    
